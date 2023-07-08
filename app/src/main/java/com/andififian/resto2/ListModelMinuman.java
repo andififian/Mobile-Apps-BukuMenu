@@ -1,0 +1,53 @@
+package com.andififian.resto2;
+
+public class ListModelMinuman {
+    String id, menu_makanan, harga, gambar_makanan, desc_makanan;
+
+    public ListModelMinuman(){};
+    public ListModelMinuman(String id, String menu_makanan, String harga, String gambar_makanan, String desc_makanan) {
+        this.id = id;
+        this.menu_makanan = menu_makanan;
+        this.harga = harga;
+        this.gambar_makanan = gambar_makanan;
+        this.desc_makanan = desc_makanan;
+    }
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getMenu_makanan() {
+        return menu_makanan;
+    }
+
+    public void setMenu_makanan(String menu_makanan) {
+        this.menu_makanan = menu_makanan;
+    }
+
+    public String getHarga() {
+        return harga;
+    }
+
+    public void setHarga(String harga) {
+        this.harga = harga;
+    }
+
+    public String getDesc_makanan() {
+        return desc_makanan;
+    }
+
+    public void setDesc_makanan(String desc_makanan) {
+        this.desc_makanan = desc_makanan;
+    }
+
+    public String getGambar_makanan() {
+        return gambar_makanan;
+    }
+
+    public void setGambar_makanan(String gambar_makanan) {
+        this.gambar_makanan = gambar_makanan;
+    }
+}
